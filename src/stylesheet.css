@@ -15,6 +15,7 @@ position:absolute;
 width: 70%;
 height: 100vh;
 right: 5%;
+display: block;
 }
 
 .login .login-menu {
@@ -133,3 +134,12 @@ right: 5%;
     margin-top: .5%;
 }
 
+@media screen  and (max-width:980px){
+    .login .login-image img {
+        display: none;
+    }
+
+    .login .login-menu {
+        width: 100%;
+    }
+}
