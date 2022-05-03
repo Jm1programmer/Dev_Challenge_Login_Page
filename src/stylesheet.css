@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    display: flex;
+}
+
+.login .login-image img {
+position:absolute;
+width: 70%;
+height: 100vh;
+right: 5%;
+}
+
+.login .login-menu {
+    width: 40%;
+    height: 100vh;
+    background-color: #4E5BEE;
+}
+
+.login .login-menu .logo-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login .login-menu .logo-image img {
+    width: 30%;
+    margin-top: 20vh;
+   
+}
+
+.login .login-menu .inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+::placeholder {
+    color: white;
+     opacity: 1; 
+   }
+
+.login .login-menu .inputs .input-email {
+    width: 55%;
+    height: 6vh;
+    outline: white solid 2px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.login .login-menu .inputs .input-email input  {
+     background-color: transparent;
+     outline: none;
+     border: 0;
+     color: white;
+     margin-left: 5%;
+     width: 80%;
+     height: 100%;
+     font-size: 100%;
+}
+
+
+.login .login-menu .inputs .input-senha {
+    width: 55%;
+    height: 6vh;
+    outline: white solid 2px;
+    border-radius: 15px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.login .login-menu .inputs .input-senha input {
+     background-color: transparent;
+     outline: none;
+     border: 0;
+     color: white;
+     margin-left: 5%;
+     width: 80%;
+     height: 100%;
+     font-size: 100%;
+     
+}
+
+.login .login-menu .inputs .input-simble {
+    font-size: 150%;
+    color: white;
+    margin-left: 5%;
+}
+.login .login-menu .bottao-flex  {
+  display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.login .login-menu .bottao-flex .bottaoentrar {
+    width: 55%;
+    height: 8vh;
+    background-color: white;
+    border-radius: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .login-menu .bottao-flex .bottaoentrar .bottao {
+    color:  #656573;
+    font-size: 120%;
+    font-weight: 900;
+}
+
+.login .login-menu .problemas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    color: white;
+}
+
+.login .login-menu .problemas .text2 {
+    font-weight:bold;
+    cursor: pointer;
+    margin-top: .5%;
+}
+
